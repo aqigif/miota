@@ -1,4 +1,5 @@
 import React from 'react';
+import codePush from "@revopush/react-native-code-push";
 import {StatusBar, StyleSheet, Text, useColorScheme, View} from 'react-native';
 
 function App() {
@@ -21,4 +22,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default codePush(App);
